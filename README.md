@@ -132,9 +132,9 @@ output "private_key" {
   value     = tls_private_key.private_key.private_key_pem
   sensitive = true
 }
-```
-terraform apply
 
+terraform apply
+```
 ## Destroy
 ```
 terraform destroy
